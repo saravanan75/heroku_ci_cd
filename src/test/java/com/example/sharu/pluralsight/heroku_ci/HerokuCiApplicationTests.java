@@ -27,7 +27,7 @@ class HerokuCiApplicationTests {
 	@Test
 	public void greetingShouldReturnDefaultMessage() throws Exception {
 		assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/hellops",
-				String.class)).contains("Hello from pluralsight course");
+				String.class)).contains("Hello from pluralsight");
 	}
 
 
