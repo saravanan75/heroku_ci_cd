@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HerokuCiApplication {
 	@GetMapping("/hellops")
+	//Code Changed
 	public String helloHeroku()
 	{
 		return "Hello from pluralsight course";
