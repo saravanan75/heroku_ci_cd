@@ -12,7 +12,7 @@ public class HerokuCiApplication {
 	//Code Changed
 	public String helloHeroku()
 	{
-		return "Hello from pluralsight course";
+		return "Hello from pluralsight course on Heroku CI/CD";
 	}
 	public static void main(String[] args)
 	{
