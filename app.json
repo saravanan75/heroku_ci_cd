@@ -11,7 +11,10 @@
             "quantity": 2,
             "size": "standard-1x"
           }
-      }
+      },
+      "buildpacks": [
+        { "url": "heroku/google-chrome" }
+      ]
     }
   }
 }
