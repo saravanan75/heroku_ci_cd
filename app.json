@@ -3,6 +3,7 @@
   "description": "App file to learn Heroku CI/CD",
   "environments": {
     "test": {
+        "env": {  "REDIS_VERSION": "4"  },
         "addons":[
         "heroku-redis:in-dyno"
       ]
