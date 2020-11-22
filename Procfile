@@ -1,1 +1,1 @@
-release: echo "A new version of the app is successfully created"
+release: echo "A new version of the Heroku app is successfully created "
