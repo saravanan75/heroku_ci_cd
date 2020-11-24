@@ -1,7 +1,6 @@
 {
   "name": "Heroku CI/CD",
   "description": "App file to learn Heroku CI/CD",
-  "addons": [ "heroku-postgresql" ],
   "environments": {
     "test": {
         "env": {  "REDIS_VERSION": "4"  },
