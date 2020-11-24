@@ -3,6 +3,8 @@
 
 Make sure you have Java and Maven installed.  Also, install the [Heroku CLI](https://cli.heroku.com/).
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ```sh
 $ git clone https://github.com/heroku/heroku_ci_cd.git
 $ cd heroku_ci_cd
